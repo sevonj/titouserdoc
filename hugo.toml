@@ -1,4 +1,3 @@
-
 [module]
 [[module.imports]]
     path = 'github.com/McShelby/hugo-theme-relearn'
@@ -8,7 +7,7 @@ theme = 'hugo-theme-relearn'
     home = [ "HTML", "RSS", "SEARCH"]
 
 [params]
-#author.name = "sevonj"
-description = "TiToMachine User Docs"
+author.name = "sevonj"
+description = "TiTo User Docs"
 
 themeVariant = 'titodocs'
