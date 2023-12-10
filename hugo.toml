@@ -10,4 +10,5 @@ theme = 'hugo-theme-relearn'
 author.name = "sevonj"
 description = "TiTo User Docs"
 baseURL = 'https://sevonj.github.io/titouserdoc/'
+staticDir = 'static'
 themeVariant = 'titodocs'
