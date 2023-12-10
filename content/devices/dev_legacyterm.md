@@ -4,7 +4,7 @@ date: 2023-12-03T19:34:08+02:00
 draft: false
 ---
 
-![image](img/dev_legacyterm.png)
+![image](../img/dev_legacyterm.png)
 
 
 | ![image](dev_legacyterm_example.png)                             |
