@@ -21,17 +21,17 @@ OUT     R4, =0  ;   Write the value in R4 into port 4.
 
 ### Device list
 
-| Image                                  | Category | Name                                   | Desc                                   |
-| -------------------------------------- | -------- | -------------------------------------- | -------------------------------------- |
-| ![image](/img/dev_ram.png)             | System   | [RAM](dev_ram)                         | Volatile storage device.               |
-| ![image](/img/dev_rtc.png)             | System   | [RTC](dev_rtc)                         | Real-Time Clock                        |
-| ![image](/img/dev_cpu.png)             | System   | [CPU](dev_cpu)                         | CPU                                    |
-| ![image](/img/dev_pic.png)             | System   | [PIC](dev_pic)                         | (fix or remove) Interrupt controller   |
-| ![image](/img/dev_legacyterm.png)      | HID      | [Legacy Terminal](dev_legacyterm)      | The dumbest, simplest human interface. |
-| ![image](/img/dev_gamepad.png)         | HID      | [PAD](dev_gamepad)                     | (TODO) Gamepad ports                   |
-| ![image](/img/dev_psg.png)             | Audio    | [PSG](dev_psg)                         | Simple audio chip.                     |
-| ![image](/img/dev_midi.png)            | Audio    | [MIDI](dev_midi)                       | (TODO) MIDI in / out                   |
-| ![image](/img/dev_display_classic.png) | Video    | [display_classic](dev_display_classic) | Memory mapped framebuffer              |
+| Image                                 | Category | Name                                   | Desc                                   |
+| ------------------------------------- | -------- | -------------------------------------- | -------------------------------------- |
+| ![image](img/dev_ram.png)             | System   | [RAM](dev_ram)                         | Volatile storage device.               |
+| ![image](img/dev_rtc.png)             | System   | [RTC](dev_rtc)                         | Real-Time Clock                        |
+| ![image](img/dev_cpu.png)             | System   | [CPU](dev_cpu)                         | CPU                                    |
+| ![image](img/dev_pic.png)             | System   | [PIC](dev_pic)                         | (fix or remove) Interrupt controller   |
+| ![image](img/dev_legacyterm.png)      | HID      | [Legacy Terminal](dev_legacyterm)      | The dumbest, simplest human interface. |
+| ![image](img/dev_gamepad.png)         | HID      | [PAD](dev_gamepad)                     | (TODO) Gamepad ports                   |
+| ![image](img/dev_psg.png)             | Audio    | [PSG](dev_psg)                         | Simple audio chip.                     |
+| ![image](img/dev_midi.png)            | Audio    | [MIDI](dev_midi)                       | (TODO) MIDI in / out                   |
+| ![image](img/dev_display_classic.png) | Video    | [display_classic](dev_display_classic) | Memory mapped framebuffer              |
 
 
 Open the device page for a more detailed explanation on its behaviour.
