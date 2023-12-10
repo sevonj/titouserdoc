@@ -44,21 +44,15 @@ Open the device page for a more detailed explanation on its behaviour.
 | 0x6B00..=0x6B0F  | 27392..=27407 | [[Interrupt Vector Table\|Exceptions#Interrupt-Vector-Table]] | (TODO)       |
 
 ### Ports
-| Port | (dec) | Device                   | Symbol | Desc                                              |
-| ---- | ----- | ------------------------ | ------ | ------------------------------------------------- |
-| 0x00 | 0     | [legacyterm](legacyterm) | CRT    | Writing to this port shows the user a number.     |
-| 0x01 | 1     | [legacyterm](legacyterm) | KBD    | Read from here to request input from user.        |
-| 0x02 | 2     | [rtc](rtc)               | RTC    | Real-Time Clock. Returns local Unix time (32-bit) |
-| ..   | ..    |                          |        |                                                   |
-| 0x06 | 6     | STDIN                    | -      | Dummy device. Don't use.                          |
-| 0x07 | 7     | STDOUT                   | -      | Dummy device. Don't use.                          |
-| ..   | ..    |                          |        |                                                   |
-| 0x20 | 32    | [pic](pic)               | -      | PIC 0: Command port                               |
-| 0x21 | 33    | [pic](pic)               | -      | PIC 1: Mask port                                  |
-| 0x22 | 34    | [pic](pic)               | -      | PIC 2: Interrupt timer                            |
-
-The compiler has builtin symbols for some ports.
-
-Example usage:
-- `IN R1, =KBD` will read from port 1, which is the keyboard device. 
-- `OUT R1, =34` will write to interrupt timer.
+| Port | (dec) | Device                       | Symbol | Desc                                              |
+| ---- | ----- | ---------------------------- | ------ | ------------------------------------------------- |
+| 0x00 | 0     | [legacyterm](dev_legacyterm) | CRT    | Writing to this port shows the user a number.     |
+| 0x01 | 1     | [legacyterm](dev_legacyterm) | KBD    | Read from here to request input from user.        |
+| 0x02 | 2     | [rtc](dev_rtc)               | RTC    | Real-Time Clock. Returns local Unix time (32-bit) |
+| ..   | ..    |                              |        |                                                   |
+| 0x06 | 6     | STDIN                        | -      | Dummy device. Don't use.                          |
+| 0x07 | 7     | STDOUT                       | -      | Dummy device. Don't use.                          |
+| ..   | ..    |                              |        |                                                   |
+| 0x20 | 32    | [pic](dev_pic)               | -      | PIC 0: Command port                               |
+| 0x21 | 33    | [pic](dev_pic)               | -      | PIC 1: Mask port                                  |
+| 0x22 | 34    | [pic](dev_pic)               | -      | PIC 2: Interrupt timer                            |
