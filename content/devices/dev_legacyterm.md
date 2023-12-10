@@ -4,16 +4,16 @@ date: 2023-12-03T19:34:08+02:00
 draft: false
 ---
 
-![image](/img/dev_legacyterm.png)
+![image](img/dev_legacyterm.png)
 
 
 | ![image](dev_legacyterm_example.png)                             |
 | ---------------------------------------------------------------- |
 | Keyboard (KBD) and monitor (CRT) as they appear in the emulator. |
 
-The legacy terminal is actually of two devices: a monitor, and a keyboard. They are quite limited in function, but their simplicity makes them very easy to use.
+The legacy terminal is actually of two devices: a monitor, and a keyboard. They are quite limited in function, but the simplicity makes them very easy to use.
 
-They only deal with numbers, and one number at a time.
+These two can only deal with numbers. They don't know letters or other characters.
 
 
 {{% notice style="tip" %}}
